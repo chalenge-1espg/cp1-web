@@ -9,6 +9,16 @@ console.log(typeof vazia);
 let valor = 1
 console.log(typeof valor);
 
+// Como usar o operador os operadores( != , ==, >= ) em JavaScript? Exemplifique e demonstre a saída!
+
+const a = 10
+const b = 20
+
+console.log(a >= b);
+console.log(a <= b);
+console.log(a == b);
+console.log(a != b);
+
 
 
 
