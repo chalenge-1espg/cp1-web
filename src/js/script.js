@@ -45,7 +45,17 @@ for (let i=0;i<51;i++){
     
 //  5 - Crie um programa que receba um nome de usuário e uma senha e verifique se eles correspondem aos   dados de um usuário cadastrado. Considere que o usuário cadastrado possui nome de usuário "admin" e  senha "1234". O programa deve exibir uma mensagem indicando se o login foi realizado com sucesso ou   se houve falha de autenticação. Exemplifique e demonstre a saída
 
+const usuariocadastrado = "hunter"
+const senhacadastrada = "1234"
 
 
+const usuario = prompt("Digite o nome do usuario: ");
+const senha = prompt("Digite a senha: ");
+
+if (usuario === usuariocadastrado && senha === senhacadastrada){
+    alert("Login realizado com sucesso");
+} else{
+    alert("Falha na autenticação.")
+}
 
 
