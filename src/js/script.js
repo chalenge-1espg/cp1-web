@@ -58,4 +58,24 @@ if (usuario === usuariocadastrado && senha === senhacadastrada){
     alert("Falha na autenticação.")
 }
 
+// 6 - Vamos criar um programa que calcule a média de 7 notas e exiba uma mensagem indicando se o aluno foi aprovado ou reprovado. Considere que a média mínima para aprovação é 6. Exemplifique e demonstre  a saída! 
 
+let soma = 0;
+
+for (let i = 1; i <= 7; i++) {
+  let nota = parseFloat(prompt(`Digite a nota ${i}:`));
+
+  if (isNaN(nota)) {
+    alert("Você digitou um valor inválido. Tente novamente.")
+  }
+
+  soma += nota;
+}
+
+let media = soma / 7;
+
+if (media >= 6) {
+  alert(`Média: ${media.toFixed(2)}\nAluno aprovado!`);
+} else {
+  alert(`Média: ${media.toFixed(2)}\nAluno reprovado.`);
+}
