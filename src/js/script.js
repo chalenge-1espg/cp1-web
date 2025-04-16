@@ -79,3 +79,20 @@ if (media >= 6) {
 } else {
   alert(`Média: ${media.toFixed(2)}\nAluno reprovado.`);
 }
+
+// Questão 7
+
+let notas = [7.5, 6.0, 8.0, 5.5, 6.5, 7.0, 6.0];
+
+let soma = 0;
+for (let i = 0; i < notas.length; i++) {
+  soma += notas[i];}
+
+  console.log("Média do aluno:", media.toFixed(2));
+
+  if (media >= 6) {
+    console.log("Resultado: Aprovado!");
+  } else {
+    console.log("Resultado: Reprovado.");
+  }
+  
