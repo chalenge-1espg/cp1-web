@@ -95,4 +95,17 @@ for (let i = 0; i < notas.length; i++) {
   } else {
     console.log("Resultado: Reprovado.");
   }
-  
+
+  //Questão 8
+
+  let texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.";
+
+  let primeiraPosicaoEm = texto.indexOf("em");
+  let ultimaPosicaoIa = texto.lastIndexOf("ia");
+  let contemCiencia = texto.includes("ciência");
+  let contemMetodos = texto.includes("métodos");
+
+  console.log("1) Primeira posição de 'em':", primeiraPosicaoEm);
+console.log("2) Última posição de 'ia':", ultimaPosicaoIa);
+console.log("3) O texto contém 'ciência'?", contemCiencia);
+console.log("4) O texto contém 'métodos'?", contemMetodos);
