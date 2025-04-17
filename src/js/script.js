@@ -84,9 +84,9 @@ if (media >= 6) {
 
 let notas = [7.5, 6.0, 8.0, 5.5, 6.5, 7.0, 6.0];
 
-let soma = 0;
+let soma1 = 0;
 for (let i = 0; i < notas.length; i++) {
-  soma += notas[i];}
+  soma1 += notas[i];}
 
   console.log("Média do aluno:", media.toFixed(2));
 
@@ -109,3 +109,8 @@ for (let i = 0; i < notas.length; i++) {
 console.log("2) Última posição de 'ia':", ultimaPosicaoIa);
 console.log("3) O texto contém 'ciência'?", contemCiencia);
 console.log("4) O texto contém 'métodos'?", contemMetodos);
+
+//Questãao 9
+let variavel = "123.45";
+variavel = parseFloat(variavel);
+console.log(typeof variavel);
